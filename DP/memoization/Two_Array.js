@@ -13,7 +13,7 @@ const twoSum = function (nums, target) {
     const preMap = new Map();
     for (let i = 0; i < nums.length; i++) {
         const diff = target - nums[i];
-        console.log("this i pre map" , preMap);
+       
         if (preMap.has(diff)) {
             return [preMap.get(diff), i];
         }
