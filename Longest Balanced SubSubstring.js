@@ -6,7 +6,7 @@ const LBSunstr = (string) => {
 }
 /**
  * @param {string} s
- * @return {number}
+ * @return {number}w
  */
 var findTheLongestBalancedSubstring = function(s) {
     //  start from potential longest
