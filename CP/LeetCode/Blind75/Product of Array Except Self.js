@@ -1,9 +1,9 @@
 const productOfArray = (array) => {
     const result = Array(array.length).fill(1);
-    // console.log(arr);
+    
     let prefix = 1;
     for (item in array) {
-        result[item] = prefix;
+        result[item] = prefix; 
         prefix *= array[item]
 
     }
